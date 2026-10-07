@@ -1,0 +1,497 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Urban Men - Tienda de Ropa para Caballeros</title>
+
+    <style>
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f6f8;
+            color: #333;
+        }
+
+        /* ENCABEZADO */
+
+        header {
+            background-color: #dce6ee;
+            text-align: center;
+            padding: 35px;
+        }
+
+        header h1 {
+            color: #243b53;
+            font-size: 40px;
+        }
+
+        header p {
+            margin-top: 10px;
+            font-size: 18px;
+        }
+
+
+        /* MENÚ */
+
+        nav {
+            background-color: white;
+            text-align: center;
+            padding: 18px;
+
+            box-shadow: 0 2px 5px #ccc;
+        }
+
+        nav a {
+            color: #243b53;
+            text-decoration: none;
+            font-weight: bold;
+            margin: 0 12px;
+        }
+
+        nav a:hover {
+            color: #527d9c;
+        }
+
+
+        /* SECCIONES */
+
+        section {
+            padding: 45px 7%;
+        }
+
+        section h2 {
+            text-align: center;
+            color: #243b53;
+            margin-bottom: 30px;
+            font-size: 30px;
+        }
+
+
+        /* PRODUCTOS */
+
+        .productos {
+            display: flex;
+            justify-content: center;
+            gap: 25px;
+            flex-wrap: wrap;
+        }
+
+        .producto {
+            background-color: white;
+            width: 230px;
+
+            padding: 18px;
+
+            border-radius: 12px;
+
+            text-align: center;
+
+            box-shadow: 0 3px 10px #ccc;
+        }
+
+        .producto img {
+            width: 190px;
+            height: 200px;
+
+            object-fit: cover;
+
+            border-radius: 8px;
+        }
+
+        .producto h3 {
+            color: #243b53;
+            margin: 12px 0;
+        }
+
+        .producto p {
+            margin-bottom: 10px;
+        }
+
+        .precio {
+            color: #16834b;
+            font-size: 20px;
+            font-weight: bold;
+        }
+
+
+        /* BOTÓN */
+
+        button {
+            background-color: #527d9c;
+
+            color: white;
+
+            border: none;
+
+            padding: 10px 20px;
+
+            margin-top: 12px;
+
+            border-radius: 7px;
+
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #365a73;
+        }
+
+
+        /* CONTACTO */
+
+        #contacto {
+            background-color: #e6eef4;
+
+            text-align: center;
+
+            line-height: 1.8;
+        }
+
+
+        /* PIE DE PÁGINA */
+
+        footer {
+            background-color: #243b53;
+
+            color: white;
+
+            text-align: center;
+
+            padding: 20px;
+        }
+
+    </style>
+</head>
+
+
+<body>
+
+
+    <!-- ENCABEZADO -->
+
+    <header>
+
+        <h1>👔 ACCESORIOS CHARLY </h1>
+
+        <p>
+            Tienda de ropa y accesorios para hombres
+        </p>
+
+    </header>
+
+
+    <!-- MENÚ -->
+
+    <nav>
+
+        <a href="#inicio">Inicio</a>
+
+        <a href="#ropa">Ropa</a>
+
+        <a href="#accesorios">Accesorios</a>
+
+        <a href="#ofertas">Ofertas</a>
+
+        <a href="#contacto">Contacto</a>
+
+    </nav>
+
+
+    <!-- SECCIÓN 1 -->
+
+    <section id="inicio">
+
+        <h2>Bienvenidos a Accesorios Charly </h2>
+
+        <p style="text-align:center; font-size:18px;">
+
+            Encuentra ropa y accesorios modernos
+            para hombres con diferentes estilos.
+
+        </p>
+
+    </section>
+
+
+    <!-- SECCIÓN 2 -->
+
+    <section id="ropa">
+
+        <h2>👕 Ropa para Hombres</h2>
+
+
+        <div class="productos">
+
+
+            <!-- CAMISA -->
+
+            <div class="producto">
+
+                <img
+                src="https://images.unsplash.com/photo-1603252110481-7ba873bf42ab"
+                alt="Camisa">
+
+                <h3>Camisa casual</h3>
+
+                <p>
+                    Camisa moderna para caballero.
+                </p>
+
+                <div class="precio">
+                    Q150.00
+                </div>
+
+                <button>
+                    Comprar
+                </button>
+
+            </div>
+
+
+            <!-- PANTALÓN -->
+
+            <div class="producto">
+
+                <img
+                src="https://images.unsplash.com/photo-1624378439575-d8705ad7ae80"
+                alt="Pantalón">
+
+                <h3>Pantalón</h3>
+
+                <p>
+                    Pantalón de mezclilla.
+                </p>
+
+                <div class="precio">
+                    Q250.00
+                </div>
+
+                <button>
+                    Comprar
+                </button>
+
+            </div>
+
+
+            <!-- CHUMPA -->
+
+            <div class="producto">
+
+                <img
+                src="https://images.unsplash.com/photo-1551028719-00167b16eac5"
+                alt="Chumpa">
+
+                <h3>Chumpa</h3>
+
+                <p>
+                    Chumpa moderna para hombre.
+                </p>
+
+                <div class="precio">
+                    Q350.00
+                </div>
+
+                <button>
+                    Comprar
+                </button>
+
+            </div>
+
+
+            <!-- SUÉTER -->
+
+            <div class="producto">
+
+                <img
+                src="https://images.unsplash.com/photo-1610652492500-ded49ceeb378"
+                alt="Suéter">
+
+                <h3>Suéter</h3>
+
+                <p>
+                    Suéter cómodo y moderno.
+                </p>
+
+                <div class="precio">
+                    Q220.00
+                </div>
+
+                <button>
+                    Comprar
+                </button>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- SECCIÓN 3 -->
+
+    <section id="accesorios">
+
+        <h2>🧢 Gorras </h2>
+
+
+        <div class="productos">
+
+
+            <!-- GORRA -->
+
+            <div class="producto">
+
+                <img
+                src="https://images.unsplash.com/photo-1588850561407-ed78c282e89b"
+                alt="Gorra">
+
+                <h3>Gorra</h3>
+
+                <p>
+                    Gorra urbana para hombre.
+                </p>
+
+                <div class="precio">
+                    Q100.00
+                </div>
+
+                <button>
+                    Comprar
+                </button>
+
+            </div>
+
+
+            <!-- CINCHOS  -->
+
+            <div class="producto">
+
+                <img
+                src="https://images.unsplash.com/photo-1542291026-7eec264c27ff"
+                alt="Cinchos">
+
+                <h3>Zapatos deportivos</h3>
+
+                <p>
+                    Cinchos de cuero
+                </p>
+
+                <div class="precio">
+                    Q450.00
+                </div>
+
+                <button>
+                    Comprar
+                </button>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- SECCIÓN 4 -->
+
+    <section id="ofertas">
+
+        <h2>🔥 Ofertas </h2>
+
+
+        <div class="productos">
+
+
+            <div class="producto">
+
+                <h3>Combo Casual</h3>
+
+                <p>
+                    Camisa + Pantalón + Gorra
+                </p>
+
+                <div class="precio">
+                    Q400.00
+                </div>
+
+                <button>
+                    Ver oferta
+                </button>
+
+            </div>
+
+
+            <div class="producto">
+
+                <h3>Combo Deportivo</h3>
+
+                <p>
+                    Suéter + Pantalón + Cinchos
+                </p>
+
+                <div class="precio">
+                    Q750.00
+                </div>
+
+                <button>
+                    Ver oferta
+                </button>
+
+            </div>
+
+
+        </div>
+
+    </section>
+
+
+    <!-- SECCIÓN 5 -->
+
+    <section id="contacto">
+
+        <h2>📞 Contacto</h2>
+
+        <p>
+            <strong>Teléfono:</strong>
+            3693 6656
+        </p>
+
+        <p>
+            <strong>Correo:</strong>
+            accesorioscharly@gmail.com25
+        </p>
+
+        <p>
+            <strong>Dirección:</strong>
+            Guatemala
+        </p>
+
+        <p>
+            <strong>Horario:</strong>
+            Lunes a domingo, 8:00 AM - 8:00 PM
+        </p>
+
+    </section>
+
+
+    <!-- PIE DE PÁGINA -->
+
+    <footer>
+
+        <p>
+            © 2026 Accesorios Charly -
+            Tienda de Ropa para Hombres y otros mas
+        </p>
+
+    </footer>
+
+
+</body>
+</html
